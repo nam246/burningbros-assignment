@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.search-bar {
+  width: 60%;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.product {
+  max-width: calc(900px / 3);
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.product img {
+  max-width: 120px;
+}
